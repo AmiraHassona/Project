@@ -1,3 +1,117 @@
+//start Sakr
+
+var imgs = document.querySelectorAll('.img-fluid'); //nodeList
+var fixedBox = document.getElementById("fixedBox");
+var smallBox = document.getElementById("smallBox");
+var btnClose = document.getElementById("btnClose");
+var btnLeft = document.getElementById("btnLeft");
+var btnRight = document.getElementById("btnRight");
+//  console.log(imgs);
+var index ;
+var imgsArr = [];
+// var imgsArr = Array.from(imgs);
+
+for (var i = 0; i < imgs.length; i++) {
+
+    imgsArr.push(imgs[i])
+}
+
+
+for (var i = 0; i < imgs.length; i++) {
+ imgs[i].addEventListener("click", function (e) {
+
+
+
+var clikedImg=e.target;
+ index = imgsArr.indexOf(clikedImg);
+// console.log(index);
+var imgScr=clikedImg.getAttribute('src');
+smallBox.style.backgroundImage=`url(${imgScr})`;
+
+
+fixedBox.classList.replace('d-none','d-flex');
+    //fixedBox.style.display = 'flex';
+
+
+
+ })
+
+}
+
+
+btnClose.addEventListener('click',closeImg);
+
+function closeImg(){
+
+    fixedBox.classList.replace('d-flex', 'd-none');
+
+}
+
+
+btnRight.addEventListener('click',getNextImg);
+
+function getNextImg(){
+
+    index++;
+
+if(index==imgsArr.length){
+
+    index=0;
+}
+var nextImg = imgsArr[index];
+var imgSrc= nextImg.getAttribute('src');
+smallBox.style.backgroundImage=`url(${imgSrc})`
+}
+
+btnLeft.addEventListener('click',getPrevImg);
+
+function getPrevImg(){
+
+    index--;
+
+if(index==-1){
+
+    index=imgsArr.length-1;
+}
+var nextImg = imgsArr[index];
+var imgSrc= nextImg.getAttribute('src');
+smallBox.style.backgroundImage=`url(${imgSrc})`
+
+
+}
+
+
+document.addEventListener('keydown', function(e){
+
+
+    if (fixedBox.getAttribute('class')=='d-flex')
+
+    {
+        if(e.key=='ArrowRight'){
+
+            getNextImg();
+        
+        }
+        else if(e.key=='ArrowLeft'){
+        
+            getPrevImg();
+        
+        }
+        
+        else if(e.key=='Escape'){
+        
+            closeImg();
+        
+        }
+
+    }
+
+
+
+})
+
+//End Sakr
+
 // star mona
 function validateName() {
 
