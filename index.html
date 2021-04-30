@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Website Title -->
+    <title>Bushwick Template</title>
+    
+    <!-- Styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,600,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <section class="section" id="section6">
+        <div class="container">
+            <div class="row">
+          <div class="col-lg-8 col-md-6 col-sm-6">
+            <div id="contact">
+              <form method="post"  name="contactform" id="contactform">
+                <fieldset>
+                  <input name="name" type="text" id="name" placeholder="Your Name" onkeyup='validateName()' />
+                  <span class='error-message' id='name-error'></span>
+                  <input name="email" type="email" id="email" placeholder="Email" onkeyup='validateEmail()' />
+                  <span class='error-message' id='email-error'></span>
+                  <textarea name="comments" id="comments" placeholder="Tell us what you think!" onkeyup='validateMessage()'></textarea>
+                  <span class='error-message' id='message-error'></span>
+                  <input type="submit" class="submit" id="submit" value="Submit" onclick="return validateForm()" />
+                  <span class='error-message' id='submit-error'></span>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <h3>Say Hi!</h3>
+            <div class="divider"></div>
+            <p class="sub-heading extra_spacing">Get in touch via contact form or email us directly. We will get back to you as soon as possible.</p>
+            <h4><a href="mailto:hello@bushwick.com" title="" class="link">hello@bushwick.com</a></h4>
+            <ul class="social-list clearfix">
+              <li> <a href="#"><i class="fab fa-google-plus"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-twitter"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-500px"></i></a> </li>
+              <li> <a href="#"><i class="fab fa-vimeo"></i></a> </li>
+            </ul>
+            <div class="break"></div>
+            <div class="row">
+              <div class="col-lg-6 col-md-6">
+                <p class="uppercase">New York</p>
+                <p>Suite 12A, Park Ave<br>
+                  New York<br>
+                  (845) - 123 4567</p>
+              </div>
+              <div class="col-lg-6 col-md-6">
+                <p class="uppercase">London</p>
+                <p>1560 Harrow Way<br>
+                  Watford<br>
+                  (02921) - 77 8877</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      </section>
+      <section >
+      <div class="col-md-12 col-sm-12 pr-4">
+        <div class="locationMap ">
+          <div class="mapouter">
+              <div class="gmap_canvas  ">
+                  <iframe  width="100%" height="500px"  id="map" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=New%20York%20,USA+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.pureblack.de/google-maps/"></a></div></div>
+        </div>
+      </div>
+    </section>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+  </html>

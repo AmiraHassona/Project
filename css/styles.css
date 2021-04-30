@@ -1,0 +1,128 @@
+.container {
+    position:relative;
+    margin:0 auto;
+    }
+    
+    .section {
+    background-color:#F8F8F7;
+    }
+    
+    #contact {
+    display:block;
+    width:auto;
+    border:none;
+    overflow:hidden;
+    margin:0;
+    padding:0 30px 0 0;
+    }
+    
+    input[type="submit"] {
+    border:0;
+    margin:0;
+    padding:0;
+    }
+    
+    input,textarea {
+    border:0;
+    float:none;
+    display:block;
+    margin-bottom:31px;
+    color:#888;
+    -webkit-appearance:none;
+    border-radius:0;
+    }
+    
+    .white-bg input,.white-bg textarea {
+    border:1px solid #d8d8d8!important;
+    background:#f8f8f7!important;
+    }
+    
+    #contact textarea {
+    resize:none;
+    }
+    
+    input.submit {
+    border:2px solid #2b2b2b!important;
+    color:#2b2b2b;
+    font-size:12px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    display:inline-block;
+    -webkit-transition:all .2s ease 0;
+    transition:all .2s ease 0;
+    z-index:1;
+    position:relative;
+    -webkit-text-shadow:none!important;
+    text-shadow:none!important;
+    font-style:normal;
+    font-family:Raleway, "Open Sans", Arial, Helvetica, sans-serif;
+    width:100%;
+    background:none!important;
+    margin:10px 0 0;
+    padding:13px 25px 14px;
+    }
+    
+    input.submit:hover {
+    background:#2b2b2b!important;
+    color:#fff;
+    -webkit-transition:all .2s ease 0;
+    transition:all .2s ease 0;
+    }
+    
+    #contact fieldset {
+    padding-left:0;
+    }
+    
+    #comments {
+    height:205px;
+    }
+    
+    textarea,input {
+    background-color:#fff;
+    border:0;
+    margin-right:0;
+    width:100%;
+    padding:17px 20px 18px;
+    }
+    
+    .social-list {
+    padding-bottom:20px;
+    padding-top:10px;
+    cursor:default;
+    font-size:0;
+    margin:0;
+    }
+    
+    .border-left-wrapper .social-list {
+    padding-top:5px;
+    padding-left:10px;
+    display:inline-block;
+    }
+    
+    .social-list li {
+    display:inline-block;
+    padding:0 5px;
+    }
+    
+    .social-list.alignright li {
+    padding:0 0 0 10px;
+    }
+    
+    .social-list li a i {
+    color:#2b2b2b;
+    font-size:18px;
+    }
+    
+    i.fa {
+    margin-right:3px;
+    color:#2b2b2b;
+    }
+    
+    .social-list.alignright i.fa {
+    margin-left:3px;
+    }
+    
+    a {
+    color:#2b2b2b;
+    }
