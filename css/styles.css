@@ -1,4 +1,4 @@
-
+/* start mona */
     .section {
     background-color:#F8F8F7;
     }
@@ -122,3 +122,81 @@
     a {
     color:#2b2b2b;
     }
+
+/* end*/
+
+/* start heba */ 
+.py-100
+{
+ padding: 100px 0px;
+}
+img
+{
+    width: 100%;
+}
+.memberSkillsImage
+{
+    width: 190px;
+   
+    padding: 20px;
+    margin: 0px 20px 20px;
+}
+.team h3
+{
+    position: relative;
+    
+    padding: 0px 0px 20px;
+}
+.team h3::after
+{
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    top: 100%;
+    left: 0%;
+    background-color:  #2b2b2b;
+   
+   
+}
+.backgroundWhite
+{
+    background-color: white;
+}
+.bodyBackground
+{
+    background-color: #f8f8f7
+}
+
+.team p
+{
+    padding: 20px 0px;
+    
+    font-size: 18px;
+}
+.color2B
+{
+    color:  #2b2b2b;
+}
+
+
+.memberInfo i
+{
+ padding: 0px 5px;
+ color:  #2b2b2b;
+ cursor: pointer;
+}
+
+#team 
+{
+    color: #888;
+    line-height: 1.35 rem;
+}
+@media screen and (max-width:991px) 
+{
+    .memberSkillsImage
+    {
+        width: 100px;
+    }
+}
+/* end heba*/   
