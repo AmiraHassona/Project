@@ -200,3 +200,89 @@ img
     }
 }
 /* end heba*/   
+/* start amira */
+#iconBox i
+{
+    font-size: 80px;
+    color: #e4e4dc;
+    transition: all .5s;
+}
+#iconBox i:hover
+{
+    color: #000000;
+} 
+#imageBox
+{
+    background-image:url(../images/fullscreen101.jpg) ;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+#lightFirstBox
+{
+    background-color: rgba(0, 0, 0 , 0.6);
+    background-size: 100% 100%;
+}
+
+#videoBox
+{
+    background-image:url(../images/fullscreen121.jpg) ;
+    background-attachment:fixed ;
+    background-size: cover;
+}
+#lightsecendBox
+{
+    background-color: rgba(0, 0, 0 , 0.4);
+    background-size: 100% 100%;
+}
+#imageBox img
+{
+  width: 48px;
+}
+#carouselExampleFade p
+{
+    font-family: 'Courgette', cursive;
+}
+.box-text-videoBox
+{
+    margin: 0px 54px;
+    padding: 60px 15px;
+}
+.box-text-h4
+{
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.6;
+}
+.box-text-videoBox p
+{
+    font-size: 24px;
+    line-height: 32.5px;
+}
+.box-text-videoBox i
+{
+    font-size: 22px; 
+    border: solid 2px white;
+}
+#lightBoxVideo
+{
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0 , 0.8);
+    visibility: hidden;
+    z-index: 999;
+   
+}
+.bg-black
+{
+    background-color: #3b3939;
+}
+#containerVideo
+{
+    top: 0;
+    left: 0;
+}
+/* end amira */

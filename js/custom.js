@@ -1,3 +1,4 @@
+// star mona
 function validateName() {
 
     var Name = document.getElementById('name').value;
@@ -90,3 +91,22 @@ function validateName() {
   
   
   }
+  //end mona
+ //start amira
+var playVideoBtn = document.getElementById("playVideoBtn") ;
+var lightBoxVideo = document.getElementById("lightBoxVideo");
+var iframeSrc =document.getElementById("iframeSrc");
+
+
+playVideoBtn.addEventListener("click" , function(){
+    lightBoxVideo.style.visibility = "visible";
+
+});
+
+
+lightBoxVideo.addEventListener("click", function(){
+    lightBoxVideo.style.visibility = "hidden";
+    iframeSrc.removeAttribute("src") ;
+});
+
+// end amira
