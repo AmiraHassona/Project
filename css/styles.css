@@ -159,6 +159,7 @@
 /* start mona */
     .section {
     background-color:#F8F8F7;
+    padding: 30px;
     }
     
     #contact {
@@ -280,10 +281,7 @@
     a {
     color:#2b2b2b;
     }
- iframe{
-
-        padding-top: 50px;
-    }
+ 
 
 /* end*/
 
