@@ -1,6 +1,4 @@
-/* Start Abdelrahman */
-/* HOME,NAVBAR AND FOOTER */
-/* HOME */
+/* Start home and nav and footer */
 .headerhome {
     font-family: 'Raleway', sans-serif;
     position:relative;
@@ -21,7 +19,6 @@
         /* font-size: 20px; */
         font-weight: bolder;
     }
-    
     .weSpan .char2 {
      display: inline-block;
     transform: translateX(-15%);
@@ -233,9 +230,8 @@
     .rightSide a {
     color:#888888 ;
     }
-/* End Abdelrahman */
-/* start Sakr */
-
+/* End home and nav and footer */ */
+/* start protfolio */
 .header
 {
     margin: 3%;
@@ -351,9 +347,6 @@
     justify-content: center;
     align-items: center;
 }
-
-
-
 #smallBox{
     width: 50%;
     height:600px;
@@ -382,16 +375,8 @@
         cursor: pointer;
     
      }
-
-
-
-
-
-
-/* End Sakr */
-
-
-/* start mona */
+/* End protoflio */
+/* start contact */
     .section {
     background-color:#F8F8F7;
     padding: 30px;
@@ -516,11 +501,8 @@
     a {
     color:#2b2b2b;
     }
- 
-
-/* end*/
-
-/* start heba */ 
+/* end contact*/
+/* start about */ 
 .py-100
 {
  padding: 100px 0px;
@@ -594,8 +576,8 @@ img
         width: 100px;
     }
 }
-/* end heba*/   
-/* start amira */
+/* end about*/   
+/* start testimonials and about  */
 #iconBox i
 {
     font-size: 80px;
@@ -680,4 +662,4 @@ img
     top: 0;
     left: 0;
 }
-/* end amira */
+/* end testimonials and about   */
