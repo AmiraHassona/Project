@@ -224,3 +224,24 @@ lightBoxVideo.addEventListener("click", function(){
 });
 
 // end amira
+// start abdelrahman
+window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    
+   
+    var sticky = navbar.offsetTop;
+    
+   
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("fixed-top");
+        navbar.classList.add("bg-white");
+        navbar.classList.remove("bg-light");
+      } else {
+        navbar.classList.remove("fixed-top");
+        navbar.classList.remove("bg-white");
+        navbar.classList.add("bg-light");
+      }
+    };
+// end abdelrahman
